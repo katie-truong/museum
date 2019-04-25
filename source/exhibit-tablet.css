@@ -1,0 +1,272 @@
+@media screen and (max-width: 779px) and (min-width: 481px) {
+  html {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: Helvetica, sans-serif;
+    font-size: 2.4vw;
+    font-weight: 200;
+    color: #343434;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    flex-grow: 1;
+  }
+
+  /* HEADER */
+
+  header {
+    padding: 25px 0;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .one,
+  .two,
+  .three {
+    text-decoration: none;
+  }
+
+  .one:link,
+  .one:visited,
+  .two:link,
+  .two:visited,
+  .three:link,
+  .three:visited {
+    color: #000;
+  }
+
+  .museum {
+    flex-grow: 1;
+    font-family: montserrat, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(46, 49, 146);
+    font-size: 1.6vw;
+    text-align: center;
+    margin-top: 1vw;
+    padding-left: 2vw;
+  }
+
+  #museum {
+    font-weight: 500;
+    color: rgb(201, 82, 61);
+  }
+
+  .menu {
+    flex-grow: 1;
+    font-size: 2.8vw;
+    text-align: center;
+    padding-right: 25px;
+  }
+
+  .menu > div {
+    margin-left: 1vw;
+  }
+
+  .bar {
+    margin: 0vw 3vw;
+  }
+
+  /* BANNER */
+
+  .banner {
+    padding: 0 0 0.25vw 0.25vw;
+    margin-bottom: 1vw;
+    background-color: rgb(249, 172, 120);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  .banner-photo {
+    height: 25vw;
+    width: auto;
+  }
+
+  .banner-text {
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+
+  #artist {
+    font-weight: 800;
+    font-size: 7vw;
+  }
+
+  #exhibit {
+    font-style: italic;
+    font-size: 4.5vw;
+  }
+
+  /* FOOTER */
+
+  main {
+    /* Sticky footer */
+    flex: 1;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3vw 10vw;
+    background-color: rgb(249, 172, 120);
+    overflow-x: hidden;
+    flex-grow: 0;
+    font-size: 2vw;
+  }
+
+  footer > div {
+    color: rgb(201, 82, 61);
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+  }
+
+  .address {
+    width: 40%;
+  }
+
+  .address > * {
+    line-height: 1rem;
+  }
+
+  .address-name {
+    padding-bottom: 1.5rem;
+    font-style: normal;
+  }
+
+  .hours {
+    width: 60%;
+  }
+
+  .title {
+    padding-bottom: 1.5rem;
+    font-weight: 700;
+  }
+
+  .footer-content {
+    font-weight: 200;
+  }
+
+  .footer-content > * {
+    /* padding-bottom: 1rem; */
+    line-height: 3.5vw;
+  }
+
+  /* BODY */
+
+  .content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #first-paragraph {
+    margin-top: 1vw;
+  }
+
+  #first-paragraph,
+  .second-paragraph,
+  .third-paragraph {
+    line-height: 1.2;
+    margin-bottom: 4vw;
+  }
+
+  .sketch {
+    float: right;
+    max-width: 50% !important;
+    height: auto !important;
+    margin: 1vw 0vw;
+    margin-left: 20px;
+  }
+
+  .sketch-wrapper {
+    margin-left: 50px;
+  }
+
+  #time,
+  #guest {
+    color: rgb(201, 82, 61);
+    font-size: 2.7vw;
+    padding-bottom: 1vw;
+  }
+
+  #time {
+    font-weight: 700;
+    margin-top: 25px;
+  }
+
+  #guest:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 47%; /* Change this to whatever width you want. */
+    padding-top: 15px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid #bbb; /* This creates the border. Replace black with whatever color you want. */
+  }
+
+  .sketch {
+    height: 450px;
+    width: auto;
+  }
+
+  .second {
+    display: none;
+  }
+
+  .second-reveal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second-paragraph {
+    order: 1;
+  }
+
+  .third-paragraph {
+    order: 3;
+  }
+
+  #green-1 {
+    display: none;
+  }
+
+  #green-2 {
+    float: left;
+    max-width: 40% !important;
+    height: auto !important;
+    padding: 0 3vw 2vw 0;
+    order: 2;
+  }
+
+  .button {
+    color: rgb(201, 82, 61);
+    text-decoration: underline;
+    line-height: 2.5;
+    cursor: pointer;
+  }
+
+  .laptop-tablet-hide {
+    display: none;
+  }
+
+  #mobile {
+    display: none;
+  }
+}

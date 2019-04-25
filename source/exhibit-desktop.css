@@ -1,0 +1,281 @@
+@media screen and (min-width: 780px) {
+  html {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4vw;
+    font-weight: 200;
+    color: #343434;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    line-height: 1.8vw;
+  }
+
+  .main {
+    flex-grow: 1;
+  }
+
+  /* HEADER */
+
+  .navbar {
+    margin: 3vw 10vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+  }
+
+  .one,
+  .two,
+  .three {
+    text-decoration: none;
+  }
+
+  .one:link,
+  .one:visited,
+  .two:link,
+  .two:visited,
+  .three:link,
+  .three:visited {
+    color: #000;
+  }
+
+  .museum {
+    flex-grow: 3;
+    font-family: montserrat, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(46, 49, 146);
+    font-size: 1.5vw;
+  }
+
+  #museum {
+    font-weight: 500;
+    color: rgb(201, 82, 61);
+  }
+
+  .menu {
+    flex-grow: 2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5vw;
+  }
+
+  .menu > div {
+    margin-left: 1vw;
+  }
+
+  .bar {
+    margin: 0vw 2vw;
+  }
+
+  /* BANNER */
+
+  .banner {
+    padding: 0vw 10vw;
+    margin: 1vw 0vw;
+    background-color: rgb(249, 172, 120);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  .banner-photo {
+    height: 20vw;
+    width: auto;
+  }
+
+  .banner-text {
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+
+  #artist {
+    font-weight: 800;
+    font-size: 6vw;
+  }
+
+  #exhibit {
+    font-style: italic;
+    font-size: 4vw;
+  }
+
+  /* FOOTER */
+
+  main {
+    /* Sticky footer */
+    flex: 1;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .footer-reveal {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3vw 10vw 4vw;
+    background-color: rgb(249, 172, 120);
+    overflow-x: hidden;
+    flex-grow: 0;
+  }
+
+  footer > div {
+    color: rgb(201, 82, 61);
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+  }
+
+  .address {
+    width: 40%;
+  }
+
+  .address > * {
+    line-height: 1.5rem;
+  }
+
+  .address-name {
+    padding-bottom: 1.5rem;
+    font-style: normal;
+  }
+
+  .hours {
+    width: 60%;
+  }
+
+  .title {
+    padding-bottom: 1.5rem;
+    font-weight: 700;
+  }
+
+  .footer-content {
+    font-weight: 200;
+  }
+
+  .footer-content > * {
+    line-height: 2.3vw;
+  }
+
+  /* BODY */
+
+  .content {
+    margin: 2vw 10vw;
+  }
+
+  .first {
+    display: flex;
+  }
+
+  .sketch {
+    width: 30vw;
+    height: auto;
+    margin-top: 2vw;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .first-text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 2vw;
+    margin-top: 2vw;
+  }
+
+  #time,
+  #guest {
+    color: rgb(201, 82, 61);
+    font-size: 2vw;
+    padding-bottom: 1vw;
+  }
+
+  #time {
+    font-weight: 700;
+  }
+
+  #guest {
+    border-bottom: 2px solid #bbb;
+  }
+
+  #first-paragraph {
+    margin: 2vw 0vw;
+  }
+
+  .sketch {
+    height: 28vw;
+    width: auto;
+  }
+
+  .second {
+    display: none;
+  }
+
+  .second-reveal {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .paragraphs {
+    padding: 0vw 1vw 0vw 0vw;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 2vw;
+  }
+
+  .paragraphs > p {
+    padding-bottom: 1.5vw;
+  }
+
+  .third-paragraph {
+    margin-left: auto;
+  }
+
+  #green-1 {
+    height: 40vw;
+    width: auto;
+    padding-bottom: 1vw;
+    margin-right: 2vw;
+  }
+
+  #green-2 {
+    display: none;
+  }
+
+  /* READMORE / LESS FUNCTIONALITY */
+
+  .button {
+    color: rgb(201, 82, 61);
+    text-decoration: underline;
+    line-height: 2.5;
+    cursor: pointer;
+  }
+
+  .laptop-tablet-hide {
+    display: none;
+  }
+
+  #mobile {
+    display: none;
+  }
+}
