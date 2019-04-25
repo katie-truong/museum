@@ -1,5 +1,7 @@
 # Fully responsive website made for Manetti Shrem Museum of Art 
 
+Live [here](https://katie-truong.github.io/museum/)
+
 **Artist**: Bruce Nauman
 
 **Designer**: Jamie Oka
